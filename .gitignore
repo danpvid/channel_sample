@@ -1,0 +1,82 @@
+# Compilação do .NET
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+*.vsix
+*.appx
+*.appxsym
+*.aps
+*.pyc
+*.userosscache
+*.vsixmanifest
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
+
+# Build do NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs, configuração do Visual Studio e outros artefatos de IDE
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.ide
+*.log
+
+# Arquivos de configuração de debug/release
+*.psess
+*.vspscc
+*.vssscc
+testresults/
+*.appxupload
+
+# Configurações locais
+*.sln.*
+*.userprefs
+*.localhistory
+
+# Mac e Linux
+.DS_Store
+Thumbs.db
+
+# Build do pacote Web
+.publish/
+
+# Configuração de container (Docker)
+docker-compose.override.yml
+
+# Arquivos temporários
+*.temp
+*.tmp
+*.old
+*.backup
+
+# Configuração de ferramenta de cobertura de código
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# Chaves secretas ou arquivos sensíveis
+appsettings.Development.json
+secrets.json
+
+# Outros
+_ReSharper.*
+*.resharper
+*.dotCover
+.idea/
+*.rider/
+# Arquivos do Rider (JetBrains)
+.idea/
+*.rider/
